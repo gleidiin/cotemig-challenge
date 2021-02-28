@@ -1,8 +1,12 @@
 # Cotemig Challenge 
 
-Seja bem-vindo ao repositório contemig challenge, aqui você aluno terá um grande desafio. Estamos com vários problemas em nossos testes unitários e gostariamos muito da sua ajuda para resolve-lós. 
+Seja bem-vindo ao repositório contemig challenge, aqui você aluno terá um grande desafio.
 
-Como posso te ajudar? Preciso de seus conhecimentos de:
+Estamos com vários problemas em nossos testes unitários e gostariamos muito da sua ajuda para resolve-lós.
+
+Temos várias definições de funções e seus testes unitários completos, sua missão é implementar essas funções e deixar o teste unitário verdinho! 
+
+O que preciso para ajudar? Preciso de seus conhecimentos de:
 
 - Lógica de Programação;
 - Algoritmos;
@@ -10,16 +14,22 @@ Como posso te ajudar? Preciso de seus conhecimentos de:
 - CSS;
 - HTML.
 
-Para resolver esses problemas que estão dentro da pasta `src`.
+E os prolemas que temos para  resolver estão dentro da pasta `src`.
 
-Entendido?
+Boa sorte e qualquer problema, abre uma issue pra gente. :)
 
-### Como Funciona
+### Como Começar
 
 Faça um fork desse projeto clicando no botão:
 
-E logo ele irá aparecer dentro do seu respositório, faça as correções e valide se tudo funciona. 
-Como testar? precisamos que tenha node instalado no seu computador, assim como npm ou yarn.
+![alt text](./docs/images/image-fork.png)
+
+E logo ele irá aparecer dentro do seu respositório, faça as correções e valide se tudo funciona.
+
+
+### Como testar?
+
+Precisamos que tenha node instalado no seu computador, assim como npm ou yarn.
 Assim que baixar o projeto, instale e configure com os seguintes comandos:
 
 ```
@@ -39,12 +49,12 @@ Terminou?
 Isso, valide primeiro se não tem novos itens, você consegue sincronizar nosso repositório com o seu fork utilizando:
 
 ```
-git remote add cotemig <repo>
-git pull cotemig master
+git remote add original https://github.com/gleidiin/cotemig-challenge.git
+git pull original main
 ```
 
 Você não precisa nos enviar uma resposta, mas sim um print dos testes funcionando. 
-Gostariamos que você adiciona-se outro desafio para seus amigos! 
+E se possível, gostariamos que você adiciona-se outro desafio para seus amigos! 
 
 ### Adicionando novo teste:
 
