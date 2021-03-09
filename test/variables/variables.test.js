@@ -48,11 +48,9 @@ describe("Variables Test", () => {
     });
 
     test("A soma de matrizes deve está correta", () => {
-        expect(somaDeMatriz()).toBe();
-        expect(somaDeMatriz()).toBe();
-        expect(somaDeMatriz()).toBe();
-        expect(somaDeMatriz()).toBe();
-        expect(somaDeMatriz()).toBe();
+        expect(somaDeMatriz([[1,1], [1,1]], [[2,2], [2,2]])).toBe([[3,3], [3,3]]);
+        expect(somaDeMatriz([[10, 2, 3], [58, 9, 354], [564, 15, 3]],[[44, 5, 3], [2, 88, 52], [3, 5, 88]])).toBe([[54,7,6], [60,97,406], [567,20,91]]);
+
     });
 
     test("A soma entre dois valores deve está correta", () => {
