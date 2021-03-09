@@ -64,13 +64,13 @@ const minimoMultiploComum = (lista) => {
 /**
  * Soma uma matriz matématica
  * @see https://mundoeducacao.uol.com.br/matematica/adicao-subtracao-matrizes.htm
- * @param {Array<Array<number>>} matriz - Matriz
+ * @param {Array<Array<number>>} matrizA - Matriz
+ * @param {Array<Array<number>>} matrizB - Matriz
  * @returns {Array<Array<number>>} matriz somada
  */
-const somaDeMatriz = (matriz) => {
+const somaDeMatriz = (matrizA, matrizB) => {
     // TODO: Implementar função
 }
-
 
 module.exports = {
     somaEntreDoisValores,

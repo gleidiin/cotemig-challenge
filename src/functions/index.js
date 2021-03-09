@@ -57,10 +57,11 @@ const conversorMesNumericoParaString = (mes) => {
  * Converte uma quantidade de dias em anos
  * @example
  * 365 = 1, ...
- * @param {number} horas - horas passadas
+ * @param {number} dias - horas passadas
+ * @param {boolean} bissexto - o ano é bisexto? 
  * @returns {number} número relativo a dias
  */
-const conversorDeDiasParaAnos = (dias) => {
+const conversorDeDiasParaAnos = (dias, bissexto = false) => {
     // TODO: Implementar função
 }
 
@@ -68,7 +69,7 @@ const conversorDeDiasParaAnos = (dias) => {
  * Converte uma quantidade de horas em dias
  * @example
  * 24 = 1, 48 = 2, 0 = 0, 12 = 0.5
- * @param {number} dias - dias passados
+ * @param {number} horas - dias passados
  * @returns {number} número relativos em horas
  */
 const conversorDeHorasParaDias = (horas) => {

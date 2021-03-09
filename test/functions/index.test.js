@@ -96,4 +96,29 @@ describe("Functions Test", () => {
         expect(validadorCPF("986.516.846-51")).toBeFalsy();
     });
 
+    test("Conversor de Mês deve converter corretamente", () => {
+        expect(conversorMesNumericoParaString(0).toLowerCase()).toBe("janeiro");
+        expect(conversorMesNumericoParaString(1).toLowerCase()).toBe("fevereiro");
+        expect(conversorMesNumericoParaString(3).toLowerCase()).toBe("abril");
+        expect(conversorMesNumericoParaString(8).toLowerCase()).toBe("setembro");
+        expect(conversorMesNumericoParaString(11).toLowerCase()).toBe("novembro");
+        expect(conversorMesNumericoParaString(12).toLowerCase()).toBe("dezembro");
+    });
+
+    test("Conversor de horas para dias deve converter corretamente", () => {
+        expect(conversorDeHorasParaDias(6)).toBe(0.25);
+        expect(conversorDeHorasParaDias(12)).toBe(0.5);
+        expect(conversorDeHorasParaDias(24)).toBe(1);
+        expect(conversorDeHorasParaDias(48)).toBe(2);
+        expect(conversorDeHorasParaDias(60)).toBe(2.5);
+    });
+
+    test("Conversor de dias para anos deve converter corretamente", () => {
+        expect(conversorDeDiasParaAnos(365)).toBe(1);
+        expect(conversorDeDiasParaAnos(366, true)).toBe(1);
+        expect(conversorDeDiasParaAnos(365, false)).toBe(1);
+        expect(conversorDeDiasParaAnos(182)).toBe(0.49863013698);
+        expect(conversorDeDiasParaAnos(183, true)).toBe(0.5);
+    });
+
 });
